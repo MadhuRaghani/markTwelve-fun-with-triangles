@@ -39,6 +39,6 @@ function calculateAreaofaTriangle(side1, side2, side3){
 calculateAreaBtn.addEventListener("click", function calculateArea(){
     if(validateInput(sideInput1.value, sideInput2.value, sideInput3.value)){
         const area = calculateAreaofaTriangle(Number(sideInput1.value), Number(sideInput2.value), Number(sideInput3.value));
-        showMessage("The Hypotenuse of " + sideInput1.value + ", " + sideInput2.value + " & " + sideInput3.value + " using Heron's Formula is "+ area + " units²");
+        showMessage("The Hypotenuse of " + sideInput1.value + ", " + sideInput2.value + " & " + sideInput3.value + " using Heron's Formula is "+ area + " units².");
     }
 });
