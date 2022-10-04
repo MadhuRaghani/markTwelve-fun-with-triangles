@@ -30,7 +30,7 @@ function calculateSumOfSquares(a, b){
 calculateHypotenuseBtn.addEventListener("click", function findHypotenuse(){
     if(validateInput(base.value, height.value)){
         const sumOfSquares = calculateSumOfSquares(Number(base.value), Number(height.value));
-        const hypotenuse = Math.sqrt(sumOfSquares).toFixed(3);
-        showMessage("The Hypotenuse of " + base.value + " & " + height.value + " is "+ hypotenuse);
+        const hypotenuse = Math.sqrt(sumOfSquares).toFixed(4);
+        showMessage("The Hypotenuse of " + base.value + " & " + height.value + " is "+ hypotenuse + " units.");
     }
 });
