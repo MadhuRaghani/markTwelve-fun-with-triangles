@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Quicksand:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#813772;
+    --secondary-color: #f5d0fe;
+    --ternary-color:  #fdf4ff;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px auto;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 0.5rem;
+    height: fit-content;
+}
+
+.nav-brand{
+    position: absolute;
+    font-family: 'Calligraffitti', cursive;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navigation .link{
+    color: var(--white-color);
+}
+
+.navigation a{
+    text-decoration: none;
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 0.5rem;
+    text-align: center;
+    color: var(--white-color);
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+}
+
+.footer .link{
+    color: var(--white-color);
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.icons{
+    padding: 8px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.container-center{
+    text-align: center;
+    margin: 2rem;
+}
