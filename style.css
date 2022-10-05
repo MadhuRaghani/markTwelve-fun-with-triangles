@@ -11,6 +11,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0px auto;
+    background-color: var(--secondary-color);
 }
 
 .navigation{
@@ -44,8 +45,14 @@ body {
     font-weight: bold;
 }
 
-h2{
+h2, h3{
     text-align: center;
+    color: var(--primary-color);
+}
+
+h2{
+    font-family: 'Calligraffitti', cursive;
+    font-size: xx-large;
 }
 
 .list-non-bullet{
@@ -64,6 +71,7 @@ h2{
     text-align: center;
     color: var(--white-color);
     border-top-right-radius: 1rem;
+    height: fit-content;
 }
 
 .footer .footer-header{
@@ -89,4 +97,78 @@ h2{
 .container-center{
     text-align: center;
     margin: 2rem;
+}
+
+.main-container input, .main-container label{
+    display: block;
+    color: var(--primary-color);
+}
+
+.main-container label{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.main-container input{
+    margin-top: 0%;
+    margin-bottom: 0.7rem;
+    border-color: var(--primary-color);
+    border-radius: 0.3rem;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+input{
+    background-color: var(--secondary-color);
+}
+
+.main-container{
+    display: block;
+    width: 20vw;
+    margin: auto;
+}
+
+
+#quiz-form{
+    width: 100%;
+    text-align: center;
+}
+
+.quiz-question-container{
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: auto;
+}
+
+.quiz-question-container p{
+    margin-top: 2rem;
+    font-size: large;
+}
+
+button{
+    background: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    font-size: large;
+}
+
+.input-label {
+    font-size: larger;
+    width: 256px;
+}
+
+#output {
+    font-size: large;    
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 1rem, auto;
+    margin-top: 0%;
+    text-align: center
 }
