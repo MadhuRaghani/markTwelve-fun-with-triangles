@@ -1,174 +1,176 @@
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Quicksand:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Quicksand:wght@400;700&display=swap");
 
-:root{
-    --primary-color:#813772;
-    --secondary-color: #f5d0fe;
-    --ternary-color:  #fdf4ff;
-    --white-color: #fff;
-    --black-color: #000;
+:root {
+  --primary-color: #813772;
+  --secondary-color: #f5d0fe;
+  --ternary-color: #fdf4ff;
+  --white-color: #fff;
+  --black-color: #000;
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
-    margin: 0px auto;
-    background-color: var(--secondary-color);
+  font-family: "Quicksand", sans-serif;
+  margin: 0px auto;
+  background-color: var(--secondary-color);
 }
 
-.navigation{
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    padding: 0.5rem 1rem;
-    border-bottom-left-radius: 0.5rem;
-    height: fit-content;
+.navigation {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
+  border-bottom-left-radius: 0.5rem;
+  height: fit-content;
 }
 
-.nav-brand{
-    position: absolute;
-    font-family: 'Calligraffitti', cursive;
-    font-size: x-large;
-    font-weight: bold;
+.nav-brand {
+  position: absolute;
+  font-family: "Calligraffitti", cursive;
+  font-size: x-large;
+  font-weight: bold;
 }
 
-.navigation .link{
-    color: var(--white-color);
+.navigation .link {
+  color: var(--white-color);
 }
 
-.navigation a{
-    text-decoration: none;
+.navigation a {
+  text-decoration: none;
 }
 
-.nav-pills{
-    text-align: right;
+.nav-pills {
+  text-align: right;
 }
 
-.link-active{
-    font-weight: bold;
+.link-active {
+  font-weight: bold;
 }
 
-h2, h3{
-    text-align: center;
-    color: var(--primary-color);
+h2,
+h3 {
+  text-align: center;
+  color: var(--primary-color);
 }
 
-h2{
-    font-family: 'Calligraffitti', cursive;
-    font-size: xx-large;
+h2 {
+  font-family: "Calligraffitti", cursive;
+  font-size: xx-large;
 }
 
-.list-non-bullet{
-    list-style: none;
+.list-non-bullet {
+  list-style: none;
 }
 
-.list-item-inline{
-    display: inline;
-    padding: 0rem 0.5rem;
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
-
-.footer{
-    background-color: var(--primary-color);
-    padding: 1rem 0.5rem;
-    text-align: center;
-    color: var(--white-color);
-    border-top-right-radius: 1rem;
-    height: fit-content;
+.footer {
+  background-color: var(--primary-color);
+  padding: 1rem 0.5rem;
+  text-align: center;
+  color: var(--white-color);
+  border-top-right-radius: 1rem;
+  height: fit-content;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-.footer .footer-header{
-    font-weight: bold;
+.footer .footer-header {
+  font-weight: bold;
 }
 
-.footer .link{
-    color: var(--white-color);
+.footer .link {
+  color: var(--white-color);
 }
 
-.footer ul{
-    padding-inline-start: 0px;
+.footer ul {
+  padding-inline-start: 0px;
 }
 
-.icons{
-    padding: 8px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+.icons {
+  padding: 8px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
-
-.container-center{
-    text-align: center;
-    margin: 2rem;
+.container-center {
+  text-align: center;
+  margin: 2rem;
 }
 
-.main-container input, .main-container label{
-    display: block;
-    color: var(--primary-color);
+.main-container input,
+.main-container label {
+  display: block;
+  color: var(--primary-color);
 }
 
-.main-container label{
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
+.main-container label {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
 
-.main-container input{
-    margin-top: 0%;
-    margin-bottom: 0.7rem;
-    border-color: var(--primary-color);
-    border-radius: 0.3rem;
-    width: 100%;
-    font-size: large;
-    text-align: center;
-    font-weight: bold;
+.main-container input {
+  margin-top: 0%;
+  margin-bottom: 0.7rem;
+  border-color: var(--primary-color);
+  border-radius: 0.3rem;
+  width: 100%;
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
 }
 
-input{
-    background-color: var(--secondary-color);
+input {
+  background-color: var(--secondary-color);
 }
 
-.main-container{
-    display: block;
-    width: 20vw;
-    margin: auto;
+.main-container {
+  display: block;
+  width: 20vw;
+  margin: auto;
 }
 
-
-#quiz-form{
-    width: 100%;
-    text-align: center;
+#quiz-form {
+  width: 100%;
+  text-align: center;
 }
 
-.quiz-question-container{
-    color: var(--primary-color);
-    font-weight: bold;
-    margin: auto;
+.quiz-question-container {
+  color: var(--primary-color);
+  font-weight: bold;
+  margin: auto;
 }
 
-.quiz-question-container p{
-    margin-top: 2rem;
-    font-size: large;
+.quiz-question-container p {
+  margin-top: 2rem;
+  font-size: large;
 }
 
-button{
-    background: var(--primary-color);
-    border: none;
-    color: var(--white-color);
-    padding: 0.7rem;
-    border-radius: 0.5rem;
-    margin: 1rem auto;
-    display: block;
-    font-size: large;
+button {
+  background: var(--primary-color);
+  border: none;
+  color: var(--white-color);
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  font-size: large;
 }
 
 .input-label {
-    font-size: larger;
-    width: 256px;
+  font-size: larger;
+  width: 256px;
 }
 
 #output {
-    font-size: large;    
-    color: var(--primary-color);
-    font-weight: bold;
-    margin: 1rem, auto;
-    margin-top: 0%;
-    text-align: center
+  font-size: large;
+  color: var(--primary-color);
+  font-weight: bold;
+  margin: 1rem, auto;
+  margin-top: 0%;
+  text-align: center;
 }
